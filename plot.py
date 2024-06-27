@@ -13,6 +13,11 @@ for i in range(3):
 print(Months)
 print(student_num)
 plt.scatter(Months, student_num)
+plt.xscale('log')
 plt.show()
 plt.plot(Months, student_num)
+plt.xlabel('YEAR')
+plt.ylabel('POPULATION')
 plt.show()
+
+
