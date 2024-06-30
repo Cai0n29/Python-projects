@@ -1,5 +1,4 @@
 #Dictionary
-print('Maximum of 5 person')
 print('How many person/people you would like to input?')
 num_per = int(input())
 people = {}
