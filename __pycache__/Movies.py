@@ -1,5 +1,5 @@
 import pandas as pd
-movie = pd.read_csv('movie_dataset.csv', index = False)
+movie = pd.read_csv('movie_dataset.csv')
 movie = movie.drop('index', axis=1)
 print('Welcome to Movie library!')
 print('How do you want to find your movie/movies? TYPE: "genre" or "year" ')

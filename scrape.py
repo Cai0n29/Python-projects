@@ -22,6 +22,6 @@ print(s.get_text())
 # Getting the title
 print(s.title)
 
-# Getting the url in the html the 'a'
+# Getting the url in the html with 'a' tags and the find_all() method
 for links in s.find_all('a'):
     print(links.get('href'))
