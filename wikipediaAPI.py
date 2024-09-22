@@ -1,5 +1,5 @@
 import requests
-
+import json
 url = 'https://en.wikipedia.org/w/api.php?action=query&prop=extracts&format=json&exintro=&titles=pizza'
 r =requests.get(url)
 json_data = r.json()
